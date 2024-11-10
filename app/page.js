@@ -128,7 +128,7 @@ export default function Home() {
                 />
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">In the Works</h3>
-                  <p className="mt-2 text-gray-600 dark:text-gray-400"> We’re crafting something exclusive. Prepare for a deeper look into the future of tech and innovation.</p>
+                  <p className="mt-2 text-gray-600 dark:text-gray-400"> We re crafting something exclusive. Prepare for a deeper look into the future of tech and innovation.</p>
                   <Link href="/blogpost/in-the-works" passHref>
                     <Button className="m-2" variant="outline" as="a">
                       Read More
