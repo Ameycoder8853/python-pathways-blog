@@ -106,7 +106,7 @@ export default function Home() {
                   className="w-full h-64 object-cover rounded-t-lg" 
                 />
                 <div className="mt-4">
-                  <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">A Journey to Computing's Next Frontier</h3>
+                  <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">A Journey to Computings Next Frontier</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">An insight-filled journey awaits. Check back soon to explore and inspire.</p>
                   <Link href="/blogpost/a-journey-to-computings-next-frontier" passHref>
                     <Button className="m-2" variant="outline" as="a">
