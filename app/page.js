@@ -1,8 +1,8 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import Typed from 'typed.js';
-import React, { useRef, useEffect } from 'react';
-import Image from 'next/image'; // Import Image from Next.js
+import Typed from "typed.js";
+import React, { useRef, useEffect } from "react";
+import Image from "next/image"; // Import Image from Next.js
 import Link from "next/link";
 
 export default function Home() {
