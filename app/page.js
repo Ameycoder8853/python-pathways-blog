@@ -12,11 +12,11 @@ export default function Home() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        'Transforming Passion into Proficiency.',
-        'Exploring Boundaries, Empowering Coders.',
-        'Where Curiosity Meets Innovation.',
-        'Crafting Tomorrow\'s Tech Leaders.',
-        'Unlocking the Power of Python, Together.'
+        "Transforming Passion into Proficiency.",
+        "Exploring Boundaries, Empowering Coders.",
+        "Where Curiosity Meets Innovation.",
+        "Crafting Tomorrows Tech Leaders.",
+        "Unlocking the Power of Python, Together.",
       ],
       typeSpeed: 50,
     });
