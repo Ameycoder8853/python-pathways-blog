@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Typed from 'typed.js';
 import React, { useRef, useEffect } from 'react';
 import Link from "next/link";
+import Image from 'next/image'; // Import Image component
 
 export default function Home() {
   // Create reference to store the DOM element containing the animation
@@ -28,7 +29,7 @@ export default function Home() {
             Welcome <span className="font-semibold">to</span> Python Pathways <br className="hidden lg:block" /> Blogs <span className="font-semibold underline decoration-primary"><span ref={el} /></span>
           </h1>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-            Crafting the Future of Innovation<br className="hidden lg:block" /> Inspiring Tomorrow&rsquo;s Innovators
+            Crafting the Future of Innovation<br className="hidden lg:block" /> Inspiring Tomorrow&apos;s Innovators
           </p>
           <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20">
             <form action="https://www.creative-tim.com/twcomponents/search" className="flex flex-wrap justify-between md:flex-row">
@@ -37,7 +38,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
-          <img src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg" alt="tailwind css components" className="w-full h-full max-w-md mx-auto" />
+          <Image src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg" alt="Website Designer" width={600} height={600} />
         </div>
       </section>
 
@@ -51,7 +52,7 @@ export default function Home() {
             {/* Testimonial 1 */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-                <p className="text-gray-600 dark:text-gray-400">Om is the visionary who leads Python Pathways with clarity and purpose. His relentless pursuit of excellence and innovation sets the tone for the club&rsquo;s growth, ensuring every member is empowered to push boundaries and achieve greatness.</p>
+                <p className="text-gray-600 dark:text-gray-400">Om is the visionary who leads Python Pathways with clarity and purpose. His relentless pursuit of excellence and innovation sets the tone for the club&apos;s growth, ensuring every member is empowered to push boundaries and achieve greatness.</p>
                 <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Om Rajguru</h3>
                 <p className="text-gray-500 dark:text-gray-300">President</p>
               </div>
@@ -86,9 +87,9 @@ export default function Home() {
             {/* Blog 1 */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-                <img src="/typescript.webp" className="w-full h-64 object-cover rounded-t-lg" />
+                <Image src="/typescript.webp" alt="A Journey to Computing's Next Frontier" width={600} height={400} className="w-full h-64 object-cover rounded-t-lg" />
                 <div className="mt-4">
-                  <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">A Journey to Computing&rsquo;s Next Frontier</h3>
+                  <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">A Journey to Computing&apos;s Next Frontier</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">An insight-filled journey awaits. Check back soon to explore and inspire.</p>
                   <Link href="/blogpost/a-journey-to-computings-next-frontier" passHref>
                     <Button className="m-2" variant="outline" as="a">
@@ -101,10 +102,10 @@ export default function Home() {
             {/* Blog 2 */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-                <img src="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 2" className="w-full h-64 object-cover rounded-t-lg" />
+                <Image src="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 2" width={600} height={400} className="w-full h-64 object-cover rounded-t-lg" />
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">In the Works</h3>
-                  <p className="mt-2 text-gray-600 dark:text-gray-400"> We&rsquo;re crafting something exclusive. Prepare for a deeper look into the future of tech and innovation.</p>
+                  <p className="mt-2 text-gray-600 dark:text-gray-400"> We&apos;re crafting something exclusive. Prepare for a deeper look into the future of tech and innovation.</p>
                   <Link href="/blogpost/in-the-works" passHref>
                     <Button className="m-2" variant="outline" as="a">
                       Read More
@@ -116,7 +117,7 @@ export default function Home() {
             {/* Blog 3 */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-                <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Blog 3" className="w-full h-64 object-cover rounded-t-lg" />
+                <Image src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Blog 3" width={600} height={400} className="w-full h-64 object-cover rounded-t-lg" />
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">On the Horizon</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">Big things are coming your way. Stay tuned for updates on groundbreaking new tech.</p>
