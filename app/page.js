@@ -38,7 +38,12 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
-          <Image src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg" alt="Website Designer" width={600} height={600} />
+          <Image 
+            src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg" 
+            alt="Website Designer" 
+            width={600} 
+            height={600} 
+          />
         </div>
       </section>
 
@@ -87,7 +92,13 @@ export default function Home() {
             {/* Blog 1 */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-                <Image src="/typescript.webp" alt="A Journey to Computing's Next Frontier" width={600} height={400} className="w-full h-64 object-cover rounded-t-lg" />
+                <Image 
+                  src="/typescript.webp" 
+                  alt="A Journey to Computing's Next Frontier" 
+                  width={600} 
+                  height={400} 
+                  className="w-full h-64 object-cover rounded-t-lg" 
+                />
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">A Journey to Computing&apos;s Next Frontier</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">An insight-filled journey awaits. Check back soon to explore and inspire.</p>
@@ -102,7 +113,13 @@ export default function Home() {
             {/* Blog 2 */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-                <Image src="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog 2" width={600} height={400} className="w-full h-64 object-cover rounded-t-lg" />
+                <Image 
+                  src="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  alt="Blog Image" 
+                  width={600} 
+                  height={400} 
+                  className="w-full h-64 object-cover rounded-t-lg" 
+                />
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">In the Works</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400"> We&apos;re crafting something exclusive. Prepare for a deeper look into the future of tech and innovation.</p>
@@ -117,7 +134,13 @@ export default function Home() {
             {/* Blog 3 */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105">
-                <Image src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Blog 3" width={600} height={400} className="w-full h-64 object-cover rounded-t-lg" />
+                <Image 
+                  src="https://images.pexels.com/photos/1181236/pexels-photo-1181236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  alt="Blog Image" 
+                  width={600} 
+                  height={400} 
+                  className="w-full h-64 object-cover rounded-t-lg" 
+                />
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">On the Horizon</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">Big things are coming your way. Stay tuned for updates on groundbreaking new tech.</p>
