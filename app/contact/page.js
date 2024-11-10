@@ -41,11 +41,11 @@ export default function Contact() {
             </div>
             <div className="text-center md:text-left mt-6 md:mt-0">
               <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Phone</h3>
-              <p className="text-gray-600 dark:text-gray-50">+91 7588888555</p>
+              <p className="text-gray-600 dark:text-gray-50">+91 86258 43729</p>
             </div>
             <div className="text-center md:text-left mt-6 md:mt-0">
               <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Address</h3>
-              <p className="text-gray-600 dark:text-gray-50">123 Python Lane, Code City, TX</p>
+              <p className="text-gray-600 dark:text-gray-50">Tarabai Park, Kolhapur, Maharashtra, 416003</p>
             </div>
           </div>
         </div>
